@@ -1,0 +1,91 @@
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+input[type='text'],
+input[type='search'],
+textarea {
+    background: none !important;
+    color: #333 !important;
+    font-size: 18px !important;
+    padding: 10px 10px 10px 5px !important;
+    display: block !important;
+    min-width: 100px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #292929 !important;
+}
+
+input[type='search'] {
+    width: 400px !important;
+}
+
+input[type='text']:focus,
+input[type='search']:focus {
+    outline: none !important;
+}
+
+input[type='text']:focus ~ label,
+input[type='text']:valid ~ label,
+input[type='search']:focus ~ label,
+input[type='search']:valid ~ label {
+    outline: none !important;
+    top: -14px !important;
+    font-size: 12px !important;
+    color: #139659 !important;
+}
+
+input[type='text']:focus ~ .bar:before,
+input[type='search']:focus ~ .bar:before {
+    min-width: 100px !important;
+}
+
+input[type='password'] {
+    letter-spacing: 0.3em;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.btn:active:before {
+    width: 120% !important;
+    padding-top: 120% !important;
+    transition: width 0.2s ease-out, padding-top 0.2s ease-out !important;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nav-shadow {
+    box-shadow: 2px 0px 4px #868686;
+}
+
+.search-input-bar {
+    min-width: 400px;
+}
+
+.btn-light-custom:hover,
+.btn-light-custom:active {
+    color: #fff;
+    background-color: #333;
+}
+
+.btn-light-custom {
+    background-color: #fff;
+    color: #333;
+}
+
+.secondary-title {
+    font-size: 1.2rem;
+}
+
+.underline-dashed {
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}

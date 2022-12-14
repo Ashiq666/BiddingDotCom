@@ -1,0 +1,10 @@
+.cover-photo{
+    height: 30vh;
+}
+.profile-photo {
+    border: 1px solid #f5f4f4;
+    margin-top: -75px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}

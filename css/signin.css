@@ -1,0 +1,24 @@
+.form-deg{
+    width: 400px;
+    align-items: center;
+    background-color: #f0d0d0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btn-custom{
+    width: 100%;
+    background-color: rgb(150, 8, 8);
+    color: #f0d0d0;
+}
+.nav-deg{
+    background-color: rgb(150, 8, 8);
+    color: aliceblue;
+}
+.nav-text{
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 30px;
+line-height: 25px;
+color: #ffffff;
+}
